@@ -1,0 +1,16 @@
+{
+  "name": "datauri-generator",
+  "version": "0.0.1",
+  "description": "A command line program for converting a file into a data uri",
+  "author": "Zack Guard",
+  "license": "MIT",
+  "bin": {
+    "datauri": "bin/module.js"
+  },
+  "main": "./lib/index.js",
+  "preferGlobal": "true",
+  "dependencies": {
+    "mmmagic": "^0.3.15",
+    "yargs": "^3.18.0"
+  }
+}
